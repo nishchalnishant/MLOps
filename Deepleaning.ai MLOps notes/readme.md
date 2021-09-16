@@ -17,6 +17,7 @@
 - The server then predicts the value and submits it to the edge device.
 
 - Preferably prediction server is on edge [ sometimes it can be on cloud as well ]
+![Requirements surrounding ML infrastructure](https://github.com/nishchalnishant/MLOps/blob/main/img/S_1_1.png)
 
 - But what goes into prediction server -- our model
 
@@ -29,6 +30,7 @@
 - - Because of these there is a POC [ proof of concept ] to production gap
 
 These components can be --
+![Requirements surrounding ML infrastructure](https://github.com/nishchalnishant/MLOps/blob/main/img/S_1_2.png)
 
 > Machine learning Data lifecycle in production
 
