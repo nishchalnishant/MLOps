@@ -11,18 +11,12 @@
 > Introduction to machine learning in production
 
 - Maximum value of a ml model can be achieved when deployed efficiently .
-
 - Edge device -- device which is in factory , which takes the raw data [ as an image , audio , video] which passes the data to a prediction server through an api .
-
 - The server then predicts the value and submits it to the edge device.
-
 - Preferably prediction server is on edge [ sometimes it can be on cloud as well ]
-
 - But what goes into prediction server -- our model
-
 - But there can be any problems that can arise , some of them are --
 - - Sometimes the training model works very well on the training data , but very bad on the actual data .
-
 - - It can be because of
     There is training , testing data drift
 - - There can be several other things in addition to ml code needed for production [ actually 5% code is the ml code , rest of the production things are the deployment code ]
