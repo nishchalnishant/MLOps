@@ -13,9 +13,10 @@
 - Maximum value of a ml model can be achieved when deployed efficiently .
 - Edge device -- device which is in factory , which takes the raw data [ as an image , audio , video] which passes the data to a prediction server through an api .
 - The server then predicts the value and submits it to the edge device.
-- Preferably prediction server is on edge [ sometimes it can be on cloud as well ]
-  <<<<<<< HEAD
-  =======>>>>>>> 94bcb636a50f2a48bd2a51caf8f9fae7e1447baf
+- Preferably prediction server is on edge
+
+![Requirements surrounding ML infrastructure](https://github.com/nishchalnishant/MLOps/blob/main/img/S_1_1.png)
+
 - But what goes into prediction server -- our model
 - But there can be any problems that can arise , some of them are --
 - - Sometimes the training model works very well on the training data , but very bad on the actual data .
