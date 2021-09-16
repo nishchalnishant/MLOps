@@ -17,6 +17,7 @@
 - The server then predicts the value and submits it to the edge device.
 
 - Preferably prediction server is on edge [ sometimes it can be on cloud as well ]
+
 ![Requirements surrounding ML infrastructure](https://github.com/nishchalnishant/MLOps/blob/main/img/S_1_1.png)
 
 - But what goes into prediction server -- our model
@@ -30,6 +31,7 @@
 - - Because of these there is a POC [ proof of concept ] to production gap
 
 These components can be --
+
 ![Requirements surrounding ML infrastructure](https://github.com/nishchalnishant/MLOps/blob/main/img/S_1_2.png)
 
 > Machine learning Data lifecycle in production
@@ -47,3 +49,5 @@ These components can be --
 - In this course, you'll implement effective search strategies for the best model that will scale for various serving needs while constraining model complexity and hardware requirements.
 - You'll optimize and manage this compute storage and IO resources your model needs in production environments during its life cycle.
 - In this journey, you will continue to use the TFX library and rely on tools like AutoML for finding the best suitable model and TensorFlow model analysis to address model fairness, explain ability issues, and mitigate bottlenecks.
+
+![Tensorflow model analysis ](https://github.com/nishchalnishant/MLOps/blob/main/img/S_3_1.png)
